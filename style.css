@@ -1,0 +1,185 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+}
+
+  nav {
+    height: 100px;
+    width: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  a {
+    color: #c20101;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    position: absolute;
+    left:300px;
+    top:20px;
+    justify-content: space-around;
+    text-decoration: 0;
+    padding: 0 -10px;
+  }
+
+  a:after{
+    content: "";
+    position: absolute;
+    background-color:rgb(105, 105, 105);
+    height: 3px;
+    width: 0%;
+    left: 0px;
+    bottom: 5px;
+    transition: 0.3s ease-in;
+  }
+
+  a:hover{
+    color:rgb(105, 105, 105);
+    transition: 0.3s ease-in;
+  }
+
+  a:hover:after{
+    width: 100%
+  }
+
+  .projects {
+    color: #c20101;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    position:absolute; 
+    left:1000px;
+    top:20px;
+    justify-content: space-around;
+  }
+
+  .hed1 {
+    letter-spacing: -5px;
+    margin-left: 220px;
+    color: #c20101;
+    font-size:100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    margin-top: -15px;
+    margin-bottom: -50px;
+  }
+  .snimchica {
+    width:75%;
+    height: 770px;  
+    margin-left: 200px;
+    position: abolute;
+    margin-top: 4px;
+  }
+
+  .cherta1 {
+    margin-top: 60px;
+    margin-bottom: -1px;
+    background-color: red;
+    color: red;
+    height: 3px;
+    border: none;
+  }
+
+  .cherta2 {
+    margin-top: -1px;
+    background-color: red;
+    color: red;
+    height: 3px;
+    border: none;
+  }
+
+  .hed2 {
+    letter-spacing: -1px;
+    font-weight: lighter;
+    font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color:rgb(105, 105, 105);
+    margin-right:800px;
+    margin-top: 10px;
+  }
+
+  .hed3 {
+    color:rgb(105, 105, 105);
+    font-size: 29px;
+    margin-left: 210px;
+    letter-spacing: -0.4px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: lighter;
+    margin-top: -30px;
+  }
+
+  .hed4 {
+    letter-spacing: -1px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 45px;
+    color:rgb(105, 105, 105);
+    margin-top: -260px;
+    margin-left: 980px;
+    font-weight: lighter;
+  }
+
+  .hed5 {
+    color: rgb(105, 105, 105);
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 29px;
+    letter-spacing: -0.4px;
+    margin-left: 1010px;
+    font-weight: lighter;
+    margin-top: -30px;
+  }
+
+  .hed6 {
+    color: rgb(105, 105, 105);
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    margin-top: 90px;
+    margin-left: 500px;
+  }
+
+  .hed7 {
+  color: rgb(105, 105, 105);
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  margin-left: 550px;
+  margin-top: -20px;
+}
+
+.hed8 {
+  color:rgb(105, 105, 105);
+  font-size: 80px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 670px;
+}
+
+.hed9 {
+  color:rgb(105, 105, 105);
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top:40px;
+  margin-left: 730px;
+}
+
+.cherta3 {
+  color: red;
+  margin-top: -10px; 
+}
+
+.top {
+  font-size: 20px;
+  color:rgb(105, 105, 105);
+  top: 1700px;
+  margin-left: 1240px;
+  letter-spacing: -2px;
+  text-decoration: none;
+}
+.top:hover {
+  text-decoration: none;
+}
