@@ -180,6 +180,17 @@ body {
   letter-spacing: -2px;
   text-decoration: none;
 }
+
 .top:hover {
   text-decoration: none;
+}
+
+@viewport {
+   zoom:1.0;
+   width: extend-to-zoom;
+}
+
+@-ms-viewport {
+   width: extend-to-zoom;
+   zoom: 1.0;
 }
