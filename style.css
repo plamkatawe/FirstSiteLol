@@ -194,3 +194,5 @@ body {
    width: extend-to-zoom;
    zoom: 1.0;
 }
+
+@media (min-width: 500px) {}
